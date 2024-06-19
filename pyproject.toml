@@ -1,0 +1,39 @@
+[tool.robotidy]
+transform = [
+    "AlignTemplatedTestCases",
+    "AddMissingEnd",
+    "NormalizeSeparators",
+    "DiscardEmptySections",
+    "MergeAndOrderSections",
+    "RemoveEmptySettings",
+    "NormalizeAssignments",
+    "OrderSettings",
+    "OrderSettingsSection",
+    "OrderTags",
+    "AlignSettingsSection:up_to_column=3",
+    "AlignVariablesSection",
+    "NormalizeNewLines:section_lines=2",
+    "NormalizeSectionHeaderName",
+    "NormalizeSettingName",
+    "ReplaceRunKeywordIf",
+    "DiscardEmptySections:allow_only_comments=True",
+    "SplitTooLongLine:line_length=150",
+    "SmartSortKeywords",
+    "RenameTestCases:capitalize_each_word=True",
+    "ReplaceBreakContinue",
+    "ReplaceReturns",
+]
+overwrite = true
+configure = [
+    "SplitTooLongLine:line_length=260",
+    "SplitTooLongLine:split_on_every_arg=False",
+]
+
+[tool.robocop]
+configure = ["line-too-long:line_length:560"]
+paths = ["Tests"]
+exclude = ["0201", "0202", "0505", "0203", "0309", "0501", "0503", "0916", "0507", "0305", "0310"]
+no_recursive = true
+
+[tool.autopep8]
+max_line_length = 150

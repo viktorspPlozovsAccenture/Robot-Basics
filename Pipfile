@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+robotframework = "<8.0.0,>=5.0.1"
+robotframework-robocop = ">=5.0.0"
+robotframework-seleniumlibrary = ">=6.0.0"
+robotframework-tidy = "*"
+robotframework-requests = "*"
+python-dateutil = ">=2.8"
+rpaframework = "*"
+ibm_db = ">=3.1.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

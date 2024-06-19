@@ -1,0 +1,12 @@
+{
+  "robot.completions.keywords.format": "Title Case",
+  "robot.lint.robocop.enabled": true,
+  "robot.codeFormatter": "robotidy",
+  "robot.editor.4spacesTab": false,
+  "robot.language-server.python": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "robot.python.executable": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "robot.variables": {},
+  "robot.python.env": {},
+  "editor.formatOnSave": true,
+  "python.testing.pytestArgs": []
+}
