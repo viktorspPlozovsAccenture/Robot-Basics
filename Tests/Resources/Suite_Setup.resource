@@ -2,8 +2,7 @@
 Library     Collections
 Library     String
 Library     Process
-Library     BuiltIn
 Library     DateTime
 Library     OperatingSystem
+Library     SeleniumLibrary
 Resource    keywords.resource
-Resource    variables.resource
