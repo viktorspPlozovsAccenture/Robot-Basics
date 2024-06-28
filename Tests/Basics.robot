@@ -2,18 +2,15 @@
 Library     Collections
 Library     String
 Library     Process
-Library     BuiltIn
 Library     DateTime
 Library     OperatingSystem
-Library     RPA.Browser.Selenium                auto_close=${FALSE}
+Library     SeleniumLibrary
 Resource    Resources/keywords.resource
 Resource    Resources/Suite_Setup.resource
-Resource    Resources/variables.resource
-
 
 *** Test Cases ***
 Test Case 1
-    Set Selenium Speed    1 second
+    Set Selenium Speed    0.5s
     Log To Console    Hello world!
     Open Browser    browser=chrome
     Go To    https://www.google.com/
