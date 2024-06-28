@@ -1,12 +1,14 @@
 Download and install Chrome
 
-Download and install VSCode into Program Files folder    https://code.visualstudio.com/download
 
-Install VSCodeextensions
 
 Download and install python    https://www.python.org/downloads/
 
 Set Environment variables
+
+Download and install VSCode into Program Files folder    https://code.visualstudio.com/download
+
+Install VSCodeextensions -- RobotCode, Python Extension Pack
 
 Download and install Git    https://git-scm.com/downloads
 
