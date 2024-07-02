@@ -9,7 +9,7 @@ Resource    Resources/keywords.resource
 Resource    Resources/Suite_Setup.resource
 
 *** Test Cases ***
-Test Case 1
+Test Case 1 | Hello World!
     Set Selenium Speed    0.5s
     Log To Console    Hello world!
     Open Browser    browser=chrome
