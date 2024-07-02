@@ -8,7 +8,7 @@ Set Environment variables
 
 Download and install VSCode into Program Files folder    https://code.visualstudio.com/download
 
-Install VSCodeextensions -- RobotCode, Python Extension Pack
+Install VSCodeextensions -- Python Extension Pack , RobotCode , Pylance , Python debugger
 
 Download and install Git    https://git-scm.com/downloads
 
