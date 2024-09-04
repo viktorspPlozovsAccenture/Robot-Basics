@@ -1,9 +1,0 @@
-{
-  "robot.completions.keywords.format": "Title Case",
-  "robot.lint.robocop.enabled": true,
-  "robot.language-server.python": "${workspaceFolder}/.venv/Scripts/python.exe",
-  "robot.python.executable": "${workspaceFolder}/.venv/Scripts/python.exe",
-  "robot.variables": {},
-  "robot.python.env": {},
-  "python.testing.pytestArgs": []
-}
