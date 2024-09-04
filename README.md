@@ -16,9 +16,8 @@ Create new folder on C:\
 
 Open Git Bash in new folder
 
-python -m venv .venv
-pip install robotframework
-pip install robotframework-seleniumlibrary
-pip install rpaframework
 
+pip install robotframework
+
+pip install robotframework-seleniumlibrary
 
